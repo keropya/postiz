@@ -10,6 +10,7 @@ services:
       # === Required Settings
       MAIN_URL: 'https://postiz.keremdemir.online'
       FRONTEND_URL: 'https://postiz.keremdemir.online'
+      COOKIE_HOST_ONLY: 'true'
       NEXT_PUBLIC_BACKEND_URL: 'https://postiz.keremdemir.online/api'
       JWT_SECRET: '${JWT_SECRET}'
       DATABASE_URL: 'postgresql://postiz-user:postiz-password@postiz-postgres:5432/postiz-db-local'
